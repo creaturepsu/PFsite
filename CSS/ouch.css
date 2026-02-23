@@ -69,7 +69,10 @@ html{width: 100%;
     margin: auto auto 20px auto;
 }
 /**this up here controls the distance between whats below the images**/
-
+.photoimg img {
+    max-width: 500px;
+    width: 90%;
+}
 .photoimg figcaption{
     margin: auto;
 }
