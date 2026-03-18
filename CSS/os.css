@@ -1,0 +1,59 @@
+/*over here is the stuff for the nav bar and header at the top of every page. considering putting it at the bottom for the OS idea*/
+
+/*os bottom bar starts here*/
+.main-footer {
+    height: 100px;
+    background-color: #BEBEC2;
+    text-align: center;
+    position: page;
+}
+nav {
+    flex-direction: row;
+    margin: 0 0 0 -1000px;
+}
+nav a {
+    margin: 100px 0 0 0;
+}
+/*adding a margin to nav img makes a white space under the bottom of the footer block.
+editing the nav image max width also affects text?*/
+nav img{
+    max-width: 90px;
+    padding-top: 10px;
+}
+.homeb img{
+    max-width: 100px;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+/*os bottom bar ends here*/
+
+
+
+.logos {
+    display: flex;
+    flex-direction: row;
+}
+img {
+    max-height: 50vh;
+}
+.logos img {
+    max-height: 20vh;
+}
+body{
+    height: stretch;
+    margin:0;
+    font-family: var(--everythingFont);
+    line-height: 1.5;
+    color:#111;
+    background-color: #008084;
+}
+div {
+    background-color: white;
+
+}
+
+/*color here controls text color*/
+:root{
+    --headFont: "DM Sans", sans-serif;
+    --everythingFont: 'cascadia mono', serif;
+}
