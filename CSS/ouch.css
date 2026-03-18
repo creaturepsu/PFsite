@@ -1,46 +1,43 @@
-/*over here is the stuff for the nav bar and header at the top of every page*/
+/*over here is the stuff for the nav bar and header at the top of every page. considering putting it at the bottom for the OS idea*/
 
-/*im so close to giving up I swear I can feel myself getting angrier with each character I type*/
-nav{
-    margin: 0px 10px;
-    display:flex;
-    flex-direction: row;
-    width: fit-content;
-    align-content: center;
-}
-
-nav img{
-    max-width: 200px;
-}
-
-nav a{
-    text-decoration: none;
-    display: inline-block;
-    list-style: none;
-    margin: 0px 60px;
-}
-
-header {
-    z-index: 1;
-    max-width: 2000px;
-}
-
-.main-header {
+/*im so close to giving up I swear I can feel myself getting angrier with each character I type
+why does deleting bottom make it not sticky?*/
+.main-footer {
     position:sticky;
-    height: 200px;
-    top: 0;
-    z-index: 1000;
-    background-color: #CCCCCC;
+    height: 100px;
+    bottom: 0px;
+    background-color: #D6D6FF;
     text-align: center;
 }
+nav {
+    flex-direction: row;
+    margin: 0 0 0 -1000px;
+}
 
+nav a {
+    margin: 100px 0 0 0;
+}
+/*adding a margin to nav img makes a white space under the bottom of the footer block.
+editing the nav image max width also affects text?*/
 
-/*look at this video: https://www.youtube.com/watch?v=CgxEA9iMMWI*/
+nav img{
+    max-width: 90px;
+    padding-top: 10px;
+}
+
+.homeb img{
+    max-width: 100px;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+/*trying here to turn the home button bigger*/
+
 
 :root{
     --headFont: "DM Sans", sans-serif;
     --everythingFont: 'cascadia mono', serif;
-    --Color: #8afbe5;
+
 }
 
 .logos {
