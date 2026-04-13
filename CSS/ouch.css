@@ -96,7 +96,11 @@ html{width: 100%;
     margin: auto;
 }
 
+.commvids{
+    justify-content: center;
+    padding-left: 150px;
 
+}
 
 .intro {
     padding-top: 0px;
