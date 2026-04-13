@@ -19,10 +19,10 @@
 
  <h2>{{ param }}</h2>
 {#param is useless here since nothing is using it unlike title which the markdown is actually using for it's title.
-as for the shit below here ask dr b for help cause I have no idea#}
-    {{ content | safe }}
+as for the stuff below here ask dr b for help cause I have no idea#}
+<div class="contents">{{ content | safe }}</div>
 
- {% include  "layouts/footer.html" %}
+{% include "layouts/footer.html" %}
 
 </body>
 </html>

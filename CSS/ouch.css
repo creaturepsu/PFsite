@@ -2,27 +2,30 @@
 
 /*im so close to giving up I swear I can feel myself getting angrier with each character I type
 why does deleting bottom make it not sticky?*/
-.main-footer {
+
+footer{
+    background-color: #BEBEC2;
+    padding-top: 10px;
+    padding-left: 10px
+}
+
+.main-header {
     position:sticky;
     height: 100px;
-    bottom: 0px;
-    background-color: #D6D6FF;
+    top: 0px;
+    background-color: #BEBEC2;
     text-align: center;
+    padding-bottom: 10px;
 }
 nav {
     flex-direction: row;
-    margin: 0 0 0 -1000px;
-}
-
-nav a {
-    margin: 100px 0 0 0;
+    margin: 0 0 0 -850px;
 }
 /*adding a margin to nav img makes a white space under the bottom of the footer block.
 editing the nav image max width also affects text?*/
 
 nav img{
     max-width: 90px;
-    padding-top: 10px;
 }
 
 .homeb img{
@@ -31,8 +34,9 @@ nav img{
     padding-right: 30px;
 }
 
-/*trying here to turn the home button bigger*/
-
+.icon img{
+    max-width: 60px;
+}
 
 :root{
     --headFont: "DM Sans", sans-serif;
@@ -50,7 +54,7 @@ img {
 }
 
 .logos img {
-    max-height: 20vh;
+    max-height: 15vh;
 }
 
 header > * {
@@ -67,7 +71,7 @@ html{width: 100%;
 
 @media (max-width: 720px) {
     #body {
-        width: 103%;
+        width: 100%;
     }
 }
 
@@ -92,18 +96,23 @@ html{width: 100%;
     margin: auto;
 }
 
+
+
+.intro {
+    padding-top: 0px;
+    max-width: 500px;
+    background-color: #BEBEC2;
+}
+
 body{
-    overflow-x: hidden;
-    margin:0;
+    height: stretch;
+    margin:0px;
     font-family: var(--everythingFont);
     line-height: 1.5;
     color:#111;
+    background-color: #008084;
 }
-#body {
-
-    width:80%;
-
-    max-width: 1740px;
-
+.contents{
+    margin:0px 20px 0px;
+    padding-bottom: 10px;
 }
-
